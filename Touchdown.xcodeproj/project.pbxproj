@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BF0756682721F78700888D55 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0756672721F78700888D55 /* Constant.swift */; };
 		BF07566A2721F85100888D55 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0756692721F85100888D55 /* FooterView.swift */; };
+		BF07566C2721FC3700888D55 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07566B2721FC3700888D55 /* NavigationBarView.swift */; };
+		BF07566E2721FD8400888D55 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07566D2721FD8400888D55 /* LogoView.swift */; };
 		BF7DF88C2721F27200461D11 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7DF88B2721F27200461D11 /* TouchdownApp.swift */; };
 		BF7DF8902721F27B00461D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7DF88F2721F27B00461D11 /* Assets.xcassets */; };
 		BF7DF8932721F27B00461D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7DF8922721F27B00461D11 /* Preview Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		BF0756672721F78700888D55 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		BF0756692721F85100888D55 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		BF07566B2721FC3700888D55 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		BF07566D2721FD8400888D55 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		BF7DF8882721F27200461D11 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7DF88B2721F27200461D11 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		BF7DF88D2721F27200461D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				BF0756692721F85100888D55 /* FooterView.swift */,
+				BF07566B2721FC3700888D55 /* NavigationBarView.swift */,
+				BF07566D2721FD8400888D55 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -225,9 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF7DF8A32721F50500461D11 /* ContentView.swift in Sources */,
+				BF07566E2721FD8400888D55 /* LogoView.swift in Sources */,
 				BF07566A2721F85100888D55 /* FooterView.swift in Sources */,
 				BF7DF88C2721F27200461D11 /* TouchdownApp.swift in Sources */,
 				BF0756682721F78700888D55 /* Constant.swift in Sources */,
+				BF07566C2721FC3700888D55 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
