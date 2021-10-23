@@ -14,7 +14,7 @@ struct FeaturedItemView: View {
         Image(player.image)
             .resizable()
             .scaledToFit()
-            .cornerRadius(12)
+            .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
     }
 }
 

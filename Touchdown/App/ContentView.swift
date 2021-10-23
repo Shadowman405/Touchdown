@@ -20,12 +20,28 @@ struct ContentView: View {
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
+                Spacer()
+                
                 ScrollView(.vertical, showsIndicators: false, content: {
-                    VStack(alignment: .center, spacing: 100){
+                    VStack(){
                         FeaturedTabView()
-                            .padding(.vertical, 300)
-
-                        //Spacer()
+                            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 4)
+                            .padding(.vertical, 20)
+                        
+                        CategoryGridView()
+                        
+                        TitleView(title: "Helmets")
+                        
+                        LazyVGrid(columns: gridLayout, spacing: 15,content: {
+                            ForEach(products) { product in ProductItemView(product: product)
+                                
+                            }
+                        })
+                        .padding(15)
+                        
+                        TitleView(title: "Brands")
+                        
+                        BrandGridView()
                         
                         FooterView()
                             .padding(.horizontal)
